@@ -1,0 +1,61 @@
+/* uni/id/class/tag/
+
+* {
+  color: red;
+}
+
+#title {
+  color: black;
+}
+
+.text {
+  color: brown;
+}
+
+p {
+  color: #000;
+}
+
+[href="https://fonts.google.com/"] {
+  color: green;
+}
+
+section h1 {
+  color: blueviolet;
+}
+
+[href="#service"] {
+  font-size: 30px;
+  color: aqua;
+} */
+
+
+/* 
+.header--button {
+  color: aqua;
+} */
+
+/* .navigation--link {
+  color: tomato;
+}
+
+#header  ul li a {
+  color: blue;
+}
+
+#header nav ul li a {
+  color: red;
+} */
+
+/*1 !importance */
+/* id 
+class/ attr
+el */
+.navigation--link {
+  color: #FFFFFF;
+}
+.navigation--link:hover {
+  color: #FF6C00;
+}
+
+

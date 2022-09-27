@@ -5,38 +5,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Babershop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    /* h1 {
+      color: aqua;
+      font-size: 50px;
+    } */
+
+  </style>
 </head>
 <body>
+
   <!-- header -->
-  <header>
-    <nav>
-      <a href="">
-        <img src="./img/logo.svg" alt="logo picture">
+  <header class="header" id="header">
+    <nav class="navigation header--navigation">
+      <a href="" class="navigation--logo-link">
+        <img  class="navigation--pic" src="./img/logo.svg" alt="logo picture">
       </a>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Services and prices</a></li>
-        <li><a href="">Barbers</a></li>
-        <li><a href="">Contacts</a></li>
+      <ul class="navigation--list">
+        <li class="navigation--item">
+          <a class="navigation--link" href="https://fonts.google.com/">About</a>
+        </li>
+        <li class="navigation--item">
+          <a class="navigation--link" href="#service">Services and prices</a>
+        </li>
+        <li class="navigation--item">
+          <a class="navigation--link"  href="">Barbers</a>
+        </li>
+        <li class="navigation--item">
+          <a class="navigation--link"  href="">Contacts</a>
+        </li>
       </ul>
     </nav>
 
     <a href="tel:+380441111111">+38 044 111 11 11</a>
-    <button type="button">Online-booking</button>
+    <button class="header--button" type="button">Online-booking</button>
   </header>
 
  <!-- main -->
-  <main>
+  <main class="main">
     <!-- section hero -->
-    <section>
-      <ul>
-        <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+    <section class="hero">
+      <ul class="hero--list">
+        <li class="hero--item">
+          <a class="hero--link" href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
+        </li>
+        <li class="hero--item">
+          <a class="hero--link" href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
+        </li>
       </ul>
 
-      <p>A hair salon for men in Kyiv</p>
-      <h1>BarberShop</h1>
-      <p>We are experts in trendy men’s haircuts.
+      <p class="hero--baner-text">A hair salon for men in Kyiv</p>
+      <h1 class="hero--title" id="title" >BarberShop</h1>
+      <p class="text" class="hero--text" >We are experts in trendy men’s haircuts.
         We work quickly, carefully and with style.</p>
     </section>
 
@@ -57,7 +81,7 @@
     </section>
 
     <!-- section prices -->
-    <section>
+    <section id="service">
       <p>Spend your time with the best masters</p>
       <h2>Services and prices</h2>
       <ul>
