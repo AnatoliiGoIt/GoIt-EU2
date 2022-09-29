@@ -1,61 +1,193 @@
-/* uni/id/class/tag/
-
-* {
-  color: red;
+:root {
+  --orange: #FF6C00;
+  --black: #303030;
 }
 
-#title {
+.button {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+ }
+
+ .title-common {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--black);  
+ }
+
+ .title-common-white {
   color: black;
 }
 
-.text {
-  color: brown;
+.sub-title {
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--black);
 }
 
-p {
-  color: #000;
+.sub-title-gray {
+  color: rgba(157, 164, 189, 0.6);
 }
 
-[href="https://fonts.google.com/"] {
-  color: green;
+.navigation-link {
+   color: black;
+   font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
 }
 
-section h1 {
-  color: blueviolet;
+.navigation-link:hover {
+  color: var(--orange);
 }
 
-[href="#service"] {
-  font-size: 30px;
-  color: aqua;
-} */
+/* hero section */
 
-
-/* 
-.header--button {
-  color: aqua;
-} */
-
-/* .navigation--link {
-  color: tomato;
+.hero-link {
+  color: black;
 }
 
-#header  ul li a {
-  color: blue;
+.hero-link:hover {
+  color: var(--orange);
 }
 
-#header nav ul li a {
-  color: red;
-} */
-
-/*1 !importance */
-/* id 
-class/ attr
-el */
-.navigation--link {
-  color: #FFFFFF;
-}
-.navigation--link:hover {
-  color: #FF6C00;
+.header-phone {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
 }
 
+
+.hero {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+
+.hero-link {
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.hero-link:hover {
+  color: var(--orange);
+}
+
+
+
+.hero-baner-text {
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: Raleway;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+.hero-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #9DA4BD;
+}
+
+
+/* about section */
+
+.about {
+  font-family: 'Open Sans';
+}
+
+ .about-name {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+ }
+
+ .about-title {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  color: var(--black);
+ }
+
+ .about-text-first {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  color: #555555;
+  ;
+ }
+
+ .about-text-second {
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+  color: #555555;
+ }
+
+ /* service */
+
+ .service {
+   font-family: 'Open Sans';
+ }
+
+ .service-list {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+ }
+
+ .service-text-right {
+   text-align: right;
+ }
+
+ /* features */
+
+.features {
+  font-family: 'Open sans';
+} 
+
+.features-item {
+  text-align: center;
+}
+
+.features-num  {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+}
+
+.features-plus  {
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--orange);
+}
+
+.features-text {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--black);  
+}
 
