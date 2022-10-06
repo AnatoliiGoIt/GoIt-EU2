@@ -17,7 +17,7 @@
 
   <!-- header -->
   <header class="header " id="header">
-    <div class="container">
+    <div class="container header-container">
       <nav class="navigation header-navigation">
         <a href="" class="navigation-logo-link">
           <img  class="navigation-pic" src="./img/logo.svg" alt="logo picture">
@@ -38,8 +38,10 @@
         </ul>
       </nav>
   
-      <a class="header-phone" href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="button" type="button">Online-booking</button>
+      <div class="header-contact">
+        <a class="header-phone" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="button" type="button">Online-booking</button>
+      </div>
     </div>
   </header>
 
@@ -71,57 +73,64 @@
       <div class="container about-container">
         <ul class="about-list">
           <li class="about-item">
-            <img class="about-pic" src="./img/about-pic1.jpg" alt="beard" width="300" height="300">
+            <img class="about-pic" src="./img/about-pic1.jpg" alt="beard" width="270" height="445">
           </li>
           <li class="about-item">
-            <img class="about-pic" src="./img/about-pic2.jpg" alt="beard" width="300" height="300">
+            <img class="about-pic" src="./img/about-pic2.jpg" alt="beard" width="270" height="445">
           </li>
         </ul>
   
-        <p class="sub-title about-sub-title">About</p>
-        <h2 class="about-title">Best Barbershop in your city</h2>
-        <p class="about-text-first">If you want to add more confidence to your image, you should definitely visit us.</p>
-        <p class="about-text-second">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
-        <button class="button about-button" type="button">Online Booking</button>
-      </section>
+        <div class="about-box">
+          <p class="sub-title about-sub-title">About</p>
+          <h2 class="about-title">Best Barbershop in your city</h2>
+          <p class="about-text-first">If you want to add more confidence to your image, you should definitely visit us.</p>
+          <p class="about-text-second">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
+          <button class="button about-button" type="button">Online Booking</button>
+        </div>
       </div>
+    </section>
 
     <!-- section prices -->
     <section id="service">
       <div class="container  service-container">
         <p class="sub-title service-sub-title">Spend your time with the best masters</p>
         <h2 class="title-common-white title-common service-title ">Services and prices</h2>
-        <ul class="service-list">
-          <li class="service-item"> 
-            <p class="service-text">Men’s haircut</p> <p class="service-text-right">from 300 uah.</p> 
-          </li>
-          <li class="service-item"> 
-            <p class="service-text">Beard trim</p> <p class="service-text-right">from 300 uah.</p> 
-          </li>
-          <li class="service-item"> 
-            <p class="service-text">Mustache trim</p> <p class="service-text">from 300 uah.</p> 
-          </li>
-          <li class="service-item"> 
-            <p class="service-text">Straight razor shave</p> <p class="service-text">from 300 uah.</p> 
-          </li>
-        </ul>
+        <div class="service-lists">
+
+          <ul class="service-list">
+            <li class="service-item"> 
+              <p class="service-text">Men’s haircut</p> <p class="service-text-right">from 300 uah.</p> 
+            </li>
+            <li class="service-item"> 
+              <p class="service-text">Beard trim</p> <p class="service-text-right">from 300 uah.</p> 
+            </li>
+            <li class="service-item"> 
+              <p class="service-text">Mustache trim</p> <p class="service-text">from 300 uah.</p> 
+            </li>
+            <li class="service-item"> 
+              <p class="service-text">Straight razor shave</p> <p class="service-text">from 300 uah.</p> 
+            </li>
+          </ul>
+    
+          <ul class="service-list">
+            <li class="service-item"> 
+              <p class="service-text">Trainee’s haircut</p> <p class="service-text">from 300 uah.</p> 
+            </li>
+            <li class="service-item"> 
+              <p class="service-text">Haircut under the nozzle</p> <p class="service-text">from 300 uah.</p> 
+            </li>
+            <li class="service-item"> 
+              <p class="service-text">Children’s haircut (0-12 y.o.)</p> <p class="service-text">from 300 uah.</p> 
+            </li>
+            <li class="service-item"> 
+              <p class="service-text">Camouflage of gray hair</p> <p class="service-text">from 300 uah.</p> 
+            </li>
+          </ul>
+
+          
+        </div>
   
-        <ul class="service-list">
-          <li class="service-item"> 
-            <p class="service-text">Trainee’s haircut</p> <p class="service-text">from 300 uah.</p> 
-          </li>
-          <li class="service-item"> 
-            <p class="service-text">Haircut under the nozzle</p> <p class="service-text">from 300 uah.</p> 
-          </li>
-          <li class="service-item"> 
-            <p class="service-text">Children’s haircut (0-12 y.o.)</p> <p class="service-text">from 300 uah.</p> 
-          </li>
-          <li class="service-item"> 
-            <p class="service-text">Camouflage of gray hair</p> <p class="service-text">from 300 uah.</p> 
-          </li>
-        </ul>
-  
-        <button class="button" type="button">Online booking</button>
+        <button class="button service-button" type="button">Online booking</button>
       </div>
     </section>
 
@@ -152,9 +161,11 @@
           </li>
         </ul>
   
-        <p class="features-name">Old traditional school</p>
-        <h2 class="features-title title">¿Why people come to us?</h2>
-        <p  class="features-descr">Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
+        <div class="features-box">
+          <p class="features-name">Old traditional school</p>
+          <h2 class="features-title title">¿Why people come to us?</h2>
+          <p  class="features-descr">Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
+        </div>
       </div>
     </section>
 
