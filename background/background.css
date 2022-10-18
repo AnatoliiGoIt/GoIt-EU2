@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  /* height: 100vh; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.background {
+  width: calc(100% - 50px);
+  height: 1000px;
+  padding: 30px;
+  border: 10px dotted greenyellow;
+  background-image: url('https://image.shutterstock.com/image-vector/small-business-idea-successful-entrepreneur-260nw-2150553663.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  cover;
+  background-origin: border-box;
+}
+
+.icons {
+  margin: 100px;
+  width: 1000px;
+  height: 600px;
+  border: 5px solid black;
+  padding: 30px;
+  background-color: hotpink;
+  background-image: 
+  url('./artificial-intelligence.png'),
+  url('./chef.png'),
+  url('./drone.png'),
+  url('./prototype.png');
+  background-repeat: no-repeat;
+  background-position: 100px 100px, 150px 200px,  300px 300px,  400px 400px;
+  background-size: 100px;
+  /* background-size: 200px 200px; */
+}
+
+.gradient {
+  display: flex;
+  margin: auto;
+}
+
+.linear, .radial {
+  width: 500px;
+  height: 400px;
+  margin: 30px;
+
+}
+
+.linear {
+  /* background-image: linear-gradient(blue 10%, green, red); */
+  /* background-image: linear-gradient(blue 30%, green 30% 50% , red 60% ); */
+  /* background-image: linear-gradient( to right top, blue 30%, green 30%, red); */
+  /* background-image: linear-gradient( 45deg, blue 30%, green 30%, red); */
+  background-image: repeating-linear-gradient(blue 0 10px, green 30px 40px, red 40px 60px);
+}
+
+.radial {
+  background-image: radial-gradient(circle at center, red 25%, blue 35%);
+  /* background-image: radial-gradient(circle at center top, red 25%, blue); */
+  /* background-image: radial-gradient(ellipse at center, red 25%, blue 25%); */
+}
+
+.shadow {
+  width: 300px;
+  height: 300px;
+  margin: 300px auto;
+
+  box-shadow: 0px 0px 10px 3px black, 10px 0px 10px 3px red, 0px 10px 10px 3px blue;
+  /* box-shadow:inset 0 0 10px 3px black; */
+}
+
+.obj-fit {
+  width: 700px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+
+}
+
+.obj-fit-pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border:  2px solid black;
+  object-fit: fill;
+  /* object-position: 20px 30px; */
+}
+
+.pseudo {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  margin: 200px;
+  background-color: indigo;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.pseudo::after {
+  content: '';
+  background-image: url('./chef.png');
+  /* display: block; */
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  margin-right: 10px;
+}
