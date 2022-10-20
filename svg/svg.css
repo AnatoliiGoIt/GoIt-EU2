@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+svg {
+  margin-bottom: 200px;
+}
+
+img {
+  margin-bottom: 200px;
+  padding: 30px;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  /* fill: red; */
+}
+
+.div-svg {
+  background-image: url('./icons/inst.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  background-size: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 200px;
+  fill: blueviolet;
+  stroke-width: 10px;
+  stroke: brown;
+}
+
+.inline-svg {
+  width: 150px;
+  height: 150px;
+  fill: blue;
+  stroke: red;
+}
+
+.svg1 {
+  fill: red;
+  stroke-opacity: 1;
+  /* stroke: red; */
+  fill-opacity: 1;
+  transition: .3s;
+  stroke-width: 2px;
+}
+
+.svg1:hover {
+  fill-opacity: .5;
+  stroke-opacity: .5;
+}
+
+.path2 {
+  fill: royalblue;
+}
+
+.hover-svg {
+  fill: black;
+}

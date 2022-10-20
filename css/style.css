@@ -416,6 +416,7 @@ margin-bottom: 20px;
 
 .barbers-container {
   padding: 120px 0;
+  background-color: #F7F7F7;
 }
 
 .barbers-sub-title {
@@ -433,6 +434,43 @@ margin-bottom: 20px;
 
 .barbers-item {
   text-align: center;
+}
+
+.barbers-socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.barbers-socials-item {
+  width: 44px;
+  height: 44px;
+}
+
+
+
+.barbers-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.barbers-socials-link:hover {
+  background-color: #303030;
+}
+
+.barbers-socials-link:hover .barbers-socials-icon {
+  fill: var(--orange);
+}
+
+.barbers-socials-icon {
+  width: 20px;
+  height: 20px;
+  fill: #303030;
 }
 
 .barbers-pic {
@@ -453,6 +491,8 @@ margin-bottom: 20px;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--orange);
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 /* gallery */
